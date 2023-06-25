@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.practo.test.AlertTest" class="method navigator-link" hash-for-method="alertMessage(Sharman, TCS, shar.man, 9875642130, Invalid Email)">alertMessage(Sharman, TCS, shar.man, 9875642130, Invalid Email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.practo.test.AlertTest" class="method navigator-link" hash-for-method="alertMessage(Sharman, TCS, sharman@outlook.com, 989987, Invalid Phone Number)">alertMessage(Sharman, TCS, sharman@outlook.com, 989987, Invalid Phone Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.practo.test.AlertTest" class="method navigator-link" hash-for-method="alertMessage(Nimish, HCL, nim.ish@gmail, 9875642130, Invalid Email)">alertMessage(Nimish, HCL, nim.ish@gmail, 9875642130, Invalid Email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.practo.test.AlertTest" class="method navigator-link" hash-for-method="alertMessage(Nimish, HCL, nim2ish@gmail.com, 8554756, Invalid Phone Number)">alertMessage(Nimish, HCL, nim2ish@gmail.com, 8554756, Invalid Phone Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.practo.test.AlertTest" class="method navigator-link" hash-for-method="alertMessage(Charles, Cognizant, mark@shot.com, 98756987, Invalid Phone Number)">alertMessage(Charles, Cognizant, mark@shot.com, 98756987, Invalid Phone Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.practo.test.AlertTest" class="method navigator-link" hash-for-method="alertMessage(Anshul, Cognizant, anshul, 9876543210, Invalid Email)">alertMessage(Anshul, Cognizant, anshul, 9876543210, Invalid Email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.practo.test.AlertTest" class="method navigator-link" hash-for-method="alertMessage(Anshul, Cognizant, anshul@gmail.com, 123456, Invalid Phone Number)">alertMessage(Anshul, Cognizant, anshul@gmail.com, 123456, Invalid Phone Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.practo.test.AlertTest" class="method navigator-link" hash-for-method="alertMessage(Rizwan, Cognizant, riz@gmail, 9875642130, Invalid Email)">alertMessage(Rizwan, Cognizant, riz@gmail, 9875642130, Invalid Email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.practo.test.SearchResultsTest" class="method navigator-link" hash-for-method="checkSearchPage">checkSearchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.practo.test.TopCitiesTest" class="method navigator-link" hash-for-method="countCities">countCities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.practo.test.AlertTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertMessage(Sharman, TCS, shar.man, 9875642130, Invalid Email)">
+                  </a> <!-- alertMessage(Sharman, TCS, shar.man, 9875642130, Invalid Email) -->
+                  <span class="method-name">alertMessage</span>
+                  <span class="parameters">(Sharman, TCS, shar.man, 9875642130, Invalid Email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertMessage(Sharman, TCS, sharman@outlook.com, 989987, Invalid Phone Number)">
+                  </a> <!-- alertMessage(Sharman, TCS, sharman@outlook.com, 989987, Invalid Phone Number) -->
+                  <span class="method-name">alertMessage</span>
+                  <span class="parameters">(Sharman, TCS, sharman@outlook.com, 989987, Invalid Phone Number)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertMessage(Nimish, HCL, nim.ish@gmail, 9875642130, Invalid Email)">
+                  </a> <!-- alertMessage(Nimish, HCL, nim.ish@gmail, 9875642130, Invalid Email) -->
+                  <span class="method-name">alertMessage</span>
+                  <span class="parameters">(Nimish, HCL, nim.ish@gmail, 9875642130, Invalid Email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertMessage(Nimish, HCL, nim2ish@gmail.com, 8554756, Invalid Phone Number)">
+                  </a> <!-- alertMessage(Nimish, HCL, nim2ish@gmail.com, 8554756, Invalid Phone Number) -->
+                  <span class="method-name">alertMessage</span>
+                  <span class="parameters">(Nimish, HCL, nim2ish@gmail.com, 8554756, Invalid Phone Number)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertMessage(Charles, Cognizant, mark@shot.com, 98756987, Invalid Phone Number)">
+                  </a> <!-- alertMessage(Charles, Cognizant, mark@shot.com, 98756987, Invalid Phone Number) -->
+                  <span class="method-name">alertMessage</span>
+                  <span class="parameters">(Charles, Cognizant, mark@shot.com, 98756987, Invalid Phone Number)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertMessage(Anshul, Cognizant, anshul, 9876543210, Invalid Email)">
+                  </a> <!-- alertMessage(Anshul, Cognizant, anshul, 9876543210, Invalid Email) -->
+                  <span class="method-name">alertMessage</span>
+                  <span class="parameters">(Anshul, Cognizant, anshul, 9876543210, Invalid Email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertMessage(Anshul, Cognizant, anshul@gmail.com, 123456, Invalid Phone Number)">
+                  </a> <!-- alertMessage(Anshul, Cognizant, anshul@gmail.com, 123456, Invalid Phone Number) -->
+                  <span class="method-name">alertMessage</span>
+                  <span class="parameters">(Anshul, Cognizant, anshul@gmail.com, 123456, Invalid Phone Number)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertMessage(Rizwan, Cognizant, riz@gmail, 9875642130, Invalid Email)">
+                  </a> <!-- alertMessage(Rizwan, Cognizant, riz@gmail, 9875642130, Invalid Email) -->
+                  <span class="method-name">alertMessage</span>
+                  <span class="parameters">(Rizwan, Cognizant, riz@gmail, 9875642130, Invalid Email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.practo.test.TopCitiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="countCities">
+                  </a> <!-- countCities -->
+                  <span class="method-name">countCities</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.practo.test.SearchResultsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchPage">
+                  </a> <!-- checkSearchPage -->
+                  <span class="method-name">checkSearchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.practo.test.AlertTest&quot;/&gt;
+      &lt;class name=&quot;com.practo.test.SearchResultsTest&quot;/&gt;
+      &lt;class name=&quot;com.practo.test.TopCitiesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'alertMessage')
+data.setCell(0, 2, 'com.practo.test.AlertTest')
+data.setCell(0, 3, 140704);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'alertMessage')
+data.setCell(1, 2, 'com.practo.test.AlertTest')
+data.setCell(1, 3, 123607);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'alertMessage')
+data.setCell(2, 2, 'com.practo.test.AlertTest')
+data.setCell(2, 3, 122424);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'alertMessage')
+data.setCell(3, 2, 'com.practo.test.AlertTest')
+data.setCell(3, 3, 97231);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'alertMessage')
+data.setCell(4, 2, 'com.practo.test.AlertTest')
+data.setCell(4, 3, 95278);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'alertMessage')
+data.setCell(5, 2, 'com.practo.test.AlertTest')
+data.setCell(5, 3, 94270);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'alertMessage')
+data.setCell(6, 2, 'com.practo.test.AlertTest')
+data.setCell(6, 3, 57283);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'alertMessage')
+data.setCell(7, 2, 'com.practo.test.AlertTest')
+data.setCell(7, 3, 40296);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'countCities')
+data.setCell(8, 2, 'com.practo.test.TopCitiesTest')
+data.setCell(8, 3, 13346);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkSearchPage')
+data.setCell(9, 2, 'com.practo.test.SearchResultsTest')
+data.setCell(9, 3, 13296);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.practo.test.TopCitiesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.practo.test.SearchResultsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practo.test.AlertTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">alertMessage(Anshul, Cognizant, anshul, 9876543210, Invalid Email)</span>
+                <span class="method-start">678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=alertMessage status=SUCCESS method=AlertTest.alertMessage(java.lang.String, java.la...)</span>
+                <span class="method-start">57961 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">alertMessage(Sharman, TCS, shar.man, 9875642130, Invalid Email)</span>
+                <span class="method-start">57964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=alertMessage status=SUCCESS method=AlertTest.alertMessage(java.lang.String, java.la...)</span>
+                <span class="method-start">155195 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">alertMessage(Nimish, HCL, nim.ish@gmail, 9875642130, Invalid Email)</span>
+                <span class="method-start">155196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=alertMessage status=SUCCESS method=AlertTest.alertMessage(java.lang.String, java.la...)</span>
+                <span class="method-start">295901 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">alertMessage(Rizwan, Cognizant, riz@gmail, 9875642130, Invalid Email)</span>
+                <span class="method-start">295901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=alertMessage status=SUCCESS method=AlertTest.alertMessage(java.lang.String, java.la...)</span>
+                <span class="method-start">390172 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">alertMessage(Anshul, Cognizant, anshul@gmail.com, 123456, Invalid Phone Number)</span>
+                <span class="method-start">390173 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=alertMessage status=SUCCESS method=AlertTest.alertMessage(java.lang.String, java.la...)</span>
+                <span class="method-start">513780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">alertMessage(Sharman, TCS, sharman@outlook.com, 989987, Invalid Phone Number)</span>
+                <span class="method-start">513781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=alertMessage status=SUCCESS method=AlertTest.alertMessage(java.lang.String, java.la...)</span>
+                <span class="method-start">554078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">alertMessage(Nimish, HCL, nim2ish@gmail.com, 8554756, Invalid Phone Number)</span>
+                <span class="method-start">554078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=alertMessage status=SUCCESS method=AlertTest.alertMessage(java.lang.String, java.la...)</span>
+                <span class="method-start">649356 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">alertMessage(Charles, Cognizant, mark@shot.com, 98756987, Invalid Phone Number)</span>
+                <span class="method-start">649356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=alertMessage status=SUCCESS method=AlertTest.alertMessage(java.lang.String, java.la...)</span>
+                <span class="method-start">771780 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practo.test.SearchResultsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkSearchPage</span>
+                <span class="method-start">771781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkSearchPage status=SUCCESS method=SearchResultsTest.checkSearchPage()[pri:0, in...)</span>
+                <span class="method-start">785078 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practo.test.TopCitiesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">countCities</span>
+                <span class="method-start">785079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=countCities status=SUCCESS method=TopCitiesTest.countCities()[pri:0, instance:com.p...)</span>
+                <span class="method-start">798426 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.practo.test.AlertTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">798448 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

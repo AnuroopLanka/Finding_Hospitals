@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="practo testing" >
+
+<test name="searchResultTest">
+<classes>
+<class name="com.practo.test.SearchResultsTest"/>
+</classes>
+</test> 
+
+<test name="topCitiestest">
+<classes>
+<class name="com.practo.test.TopCitiesTest"/>
+</classes>
+</test>
+
+<!-- <test name="AlertcheckingTest">
+<classes>
+<class name="com.practo.test.AlertTest"/>
+</classes>
+</test> -->
+
+</suite>

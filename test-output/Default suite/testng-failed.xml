@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.practo.test.TopCitiesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="countCities"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.practo.test.TopCitiesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

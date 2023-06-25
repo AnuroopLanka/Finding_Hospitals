@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [practo testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="topCitiestest(failed)">
+    <classes>
+      <class name="com.practo.test.TopCitiesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="countCities"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.practo.test.TopCitiesTest -->
+    </classes>
+  </test> <!-- topCitiestest(failed) -->
+  <test thread-count="5" parallel="tests" name="searchResultTest(failed)">
+    <classes>
+      <class name="com.practo.test.SearchResultsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="checkSearchPage"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.practo.test.SearchResultsTest -->
+    </classes>
+  </test> <!-- searchResultTest(failed) -->
+</suite> <!-- Failed suite [practo testing] -->

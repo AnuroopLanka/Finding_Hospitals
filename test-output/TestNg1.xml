@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="practo testing">
+
+<test name="searchResultTest">
+<classes>
+<class name="com.practo.pom.HomePage"/>
+<class name="com.practo.pom.FilteringHospitals"/>
+<class name="com.practo.pom.DiagnosticCities"/>
+<class name="com.practo.pom.Corporates"/>
+</classes>
+</test> 
+
+
+
+</suite>
